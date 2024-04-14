@@ -26,3 +26,7 @@ A continuación se muestran algunas capturas de pantalla de la aplicación:
 ## Uso
 
 - **Navegación:** Utiliza los enlaces de navegación para explorar diferentes secciones de la aplicación.
+
+### Visita mi aplicación desplegada:
+
+[¡Haz clic aquí para ver la aplicación en vivo!](https://javiergualpa1503.github.io/NutriFoods)
