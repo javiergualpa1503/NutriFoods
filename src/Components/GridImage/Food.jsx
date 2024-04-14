@@ -6,8 +6,6 @@ import { getFoodByType } from '../../helpers/getFoodByType';
 const Food = ({tipo}) => {
 
   const products = getFoodByType(tipo)
-  
-  console.log(products)
     return (
     <> 
     <div className="container mx-auto p-4 h-screen">
