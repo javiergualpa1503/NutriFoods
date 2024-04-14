@@ -13,7 +13,7 @@ return ( <div className="container mx-auto p-6">
         style={{backgroundImage: "url('https://images.pexels.com/photos/6107729/pexels-photo-6107729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}
       >
         <Link
-          to="/proteinas"
+          to="/NutriFoods/proteinas"
           className="text-3xl font-bold text-white hover:underline block mb-4"
           >Proteínas</Link>
       </div>
@@ -24,7 +24,7 @@ return ( <div className="container mx-auto p-6">
         style={{backgroundImage: "url('https://images.pexels.com/photos/1079020/pexels-photo-1079020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}
       >
         <Link
-          to="/carbohidratos"
+          to="/NutriFoods/carbohidratos"
           className="text-3xl font-bold text-white hover:underline block mb-4"
           >Carbohidratos</Link
         >
@@ -36,7 +36,7 @@ return ( <div className="container mx-auto p-6">
         style={{backgroundImage: "url('https://images.pexels.com/photos/557659/pexels-photo-557659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}
       >
         <Link
-          to="/grasas"
+          to="/NutriFoods/grasas"
           className="text-3xl font-bold text-white hover:underline block mb-4"
           >Grasas</Link
         >
@@ -48,7 +48,7 @@ return ( <div className="container mx-auto p-6">
         style={{backgroundImage: "url('https://images.pexels.com/photos/1178610/pexels-photo-1178610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}
       >
         <Link
-          to="/frutas"
+          to="/NutriFoods/frutas"
           className="text-3xl font-bold text-white hover:underline block mb-4"
           >Frutas</Link
         >

@@ -7,7 +7,7 @@ export const Navbar = () => {
     <nav className="bg-gray-800 p-4">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="flex-shrink-0 flex justify-between">
-              <Link className="text-white text-2xl font-bold" to={'/'}>NutriFoods</Link>
+              <Link className="text-white text-2xl font-bold" to={'/NutriFoods'}>NutriFoods</Link>
               <div>
            <button className={`md:hidden ${isOpen ? 'hidden' : 'block'}`}onClick={() => setIsOpen(!isOpen)}> 
            <svg xmlns="http://www.w3.org/2000/svg" className="ionicon w-8" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="48" d="M88 152h336M88 256h336M88 360h336"/></svg>
@@ -24,19 +24,19 @@ export const Navbar = () => {
           
            
               <div className={`${isOpen? 'flex' : 'hidden'} md:flex flex-col md:flex-row gap-2 md:gap-4 mt-4 md:mt-0`}>
-                <NavLink to="/" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
+                <NavLink to="/NutriFoods" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
                   Inicio
                 </NavLink>
-                <NavLink to="/carbohidratos" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
+                <NavLink to="/NutriFoods/carbohidratos" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
                   Carbohidratos
                 </NavLink>
-                <NavLink to="/proteinas" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
+                <NavLink to="/NutriFoods/proteinas" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
                   Proteinas
                 </NavLink>
-                <NavLink to="/grasas" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
+                <NavLink to="/NutriFoods/grasas" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
                   Grasas
                 </NavLink>
-                <NavLink to="/frutas" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
+                <NavLink to="/NutriFoods/frutas" className={({isActive}) => `text-gray-300 hover:text-white ${isActive ? 'underline text-gray-400' : ''}`}>
                   Frutas
                 </NavLink>
               </div>

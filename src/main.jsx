@@ -12,29 +12,29 @@ import Food from "./Components/GridImage/Food.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/NutriFoods",
     element: <App/>,
     children:[{
-      path: "/",
+      path: "",
       element: <Home/>,
     },{
-      path: "/carbohidratos",
+      path: "carbohidratos",
       element: <Food tipo={'carbohidrato'}/>,
     },
     {
-      path: "/proteinas",
+      path: "proteinas",
       element: <Food tipo={'proteina'}/>,
     },
     {
-      path: "/grasas",
+      path: "grasas",
       element: <Food tipo={'grasas'}/>,
     },
     {
-      path: "/frutas",
+      path: "frutas",
       element: <Food tipo={'frutas'}/>,
     }
   ],
-  errorElement: <Navigate to={'/'}/>
+  errorElement: <Navigate to={'/NutriFoods'}/>
   }
 ]);
 
