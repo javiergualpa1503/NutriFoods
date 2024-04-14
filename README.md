@@ -19,8 +19,6 @@ Este proyecto es una aplicación web que permite a los usuarios obtener informac
 
 A continuación se muestran algunas capturas de pantalla de la aplicación:
 
-![home](./src/assets/inicio.png)
-
 ![imagen seccion carbohidratos](./src/assets/carbo.png)
 
 ![imagen seccion proteinas](./src/assets/prote.png)
