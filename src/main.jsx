@@ -3,6 +3,7 @@ import * as ReactDOM from "react-dom/client";
 import App from "./App.jsx"
 import {
   createBrowserRouter,
+  Navigate,
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
       element: <Food tipo={'frutas'}/>,
     }
   ],
+  errorElement: <Navigate to={'/'}/>
   }
 ]);
 
