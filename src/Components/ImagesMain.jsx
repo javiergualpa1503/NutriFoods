@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 export const ImagesMain = () => {
-return ( <div className="container mx-auto p-6">
+return ( <div className="">
     <h1 className="text-3xl font-bold text-center mb-8 text-white">
       Nutrientes y Frutas
     </h1>
